@@ -1,0 +1,64 @@
+body {
+  background-image: linear-gradient(rgb(255, 255, 255), #bda00d);
+//   height: 100vh;
+  
+}
+.img {
+  height: 120px;
+}
+
+.title {
+  padding: 25px 50px;
+  text-align: center;
+  color: rgb(224, 176, 15);
+  font-size: 25px;
+}
+
+.subtitle {
+  padding: 20px 40px;
+  text-align: center;
+  color: rgb(224, 176, 15);
+  font-size: 20px;
+}
+
+.explanation{
+    padding: 20px 40px;
+    text-align: center;
+    color: rgb(157, 38, 5);
+    font-size: 15px;
+    font-style: italic;
+}
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  &__input {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(198, 142, 0);
+  }
+
+  &__list{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+    &-item {
+        display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: rgb(157, 38, 5);
+  font-size: 15px;
+    }
+  }
+}
