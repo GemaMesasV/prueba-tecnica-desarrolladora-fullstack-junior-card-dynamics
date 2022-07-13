@@ -33,6 +33,7 @@ console.log(beers);
 
   return (
     <div>
+		<main className='main'>
       <h1 className='title'>Buscador de combinaciones para encontrar la combinación culinaria perfecta</h1>
 	  <h2 className='subtitle'>Edición: Cerveza y comida</h2>
 	  <p className='explanation'>Busca aquí tu comida (en inglés) y te mostraremos cuales son las cervezas que mejor le acompañan.</p>
@@ -47,7 +48,8 @@ console.log(beers);
 				))}
 			</ul>
 			</div>
-			<p className='explanation'>Y recuerda... Si bebes ¡no conduzcas!</p>
+			<footer className='footer'>Y recuerda... Si bebes ¡no conduzcas!</footer>
+			</main>
     </div>
   );
 }

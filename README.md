@@ -30,7 +30,9 @@ Hacer esta prueba técnica me ha servido para practicar mis habilidades en React
 
 Por otro lado, mi gran reto fue el *Rate Limits* de la API,  ya que estaba configurado para hacer un máximo de 3600 peticiones por hora, es por ello que tuve que utilizar una función *Throttle* para no enviar una petición a la API cada vez que se escribiera un carácter en el buscador sino que se enviara cada segundo, tal y como lo he configurado.
 
-Aproximadamente la prueba me llevó unas 4 horas para terminarla.
+También tuve algunos contratiempos con el diseño CSS, en concreto cuando la página "crecía" al buscar una comida en el imput.
+
+Aproximadamente la prueba me llevó unas 5 horas para terminarla.
 
 
 #### Guía para arrancar el proyecto
